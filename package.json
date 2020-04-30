@@ -4,16 +4,6 @@
   "main": "index.js",
   "license": "MIT",
   "private": true,
-  "dependencies": {
-    "@types/chai": "^4.2.0",
-    "@types/mz": "^0.0.32",
-    "@types/node": "^12.6.8",
-    "chai": "^4.2.0",
-    "chalk": "^2.4.2",
-    "mz": "^2.7.0",
-    "ts-node": "^8.3.0",
-    "typescript": "^3.5.3"
-  },
   "scripts": {
     "0": "ts-node exercises/exercise-00/index.ts",
     "1": "ts-node exercises/exercise-01/index.ts",
@@ -31,5 +21,17 @@
     "13": "ts-node exercises/exercise-13/index.ts",
     "14": "ts-node exercises/exercise-14/index.ts",
     "15": "ts-node exercises/exercise-15/index.ts"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chalk": "^4.0.0",
+    "mz": "^2.7.0",
+    "ts-node": "^8.9.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mz": "^2.7.0",
+    "@types/node": "^13.13.4",
+    "typescript": "^3.8.3"
   }
 }

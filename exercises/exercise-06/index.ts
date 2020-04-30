@@ -88,7 +88,7 @@ const users: User[] = [
     }
 ];
 
-function swap(v1, v2) {
+function swap<F, S>(v1: F, v2: S): [S, F] {
     return [v2, v1];
 }
 
